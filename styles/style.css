@@ -39,7 +39,7 @@
 
 .header__title {
   width: 730px;
-  margin:0 0 0 64px;
+  margin: 0 0 0 64px;
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
@@ -96,7 +96,7 @@
 
 .two-columns {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   width: 80%;
 }
 
@@ -139,7 +139,7 @@
   padding: 100px 0;
 }
 
-.title {
+.section-title {
   width: 60%;
   margin: 0 0 20px 0;
   text-align: center;
@@ -148,7 +148,7 @@
   font-weight: 600;
 }
 
-.subtitle {
+.section-subtitle {
   width: 60%;
   margin: 0 0 0 0;
   text-align: center;
@@ -232,7 +232,7 @@
   content: '\2192';
 }
 
-  /* kaufman */
+/* kaufman */
 .kaufman {
   display: flex;
   flex-direction: column;
@@ -255,13 +255,13 @@
   background-size: contain;
 }
 
-.title_theme_dark {
+.section-title_theme_dark {
   margin: 0 0 20px 0;
   color: white;
   z-index: 1;
 }
 
-.subtitle_theme_dark {
+.section-subtitle_theme_dark {
   margin: 0 0 0 0;
   color: white;
   z-index: 1;
@@ -304,7 +304,7 @@
 }
 
 .logo_place_footer {
- background-image: url('../images/logo_place_footer.svg');
+  background-image: url('../images/logo_place_footer.svg');
 }
 
 .footer__author {
@@ -336,12 +336,12 @@
 }
 
 .footer__social-icon {
+  vertical-align: middle;
   margin: 0 10px 0 0;
 }
 
 .footer__social-icon_social_facebook::after {
   content: url('../images/facebook_color_white.svg');
-
 }
 
 .footer__social-icon_social_vk::after {
@@ -351,5 +351,3 @@
 .footer__social-icon_social_ins::after {
   content: url('../images/instagram_color_white.svg');
 }
-
-
