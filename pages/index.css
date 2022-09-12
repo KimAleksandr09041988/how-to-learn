@@ -39,6 +39,13 @@
 @import url('../blocks/cards/__item/cards__item.css');
 @import url('../blocks/cards/__title/cards__title.css');
 
+/* блок video */
+@import url('../blocks/video/video.css');
+
+/* элементы блока video */
+@import url('../blocks/video/__iframes/video__iframes.css');
+@import url('../blocks/video/__iframe/video__iframe.css');
+
 /* блок description */
 @import url('../blocks/description/description.css');
 
