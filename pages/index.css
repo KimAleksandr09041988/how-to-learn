@@ -1,6 +1,12 @@
 /* normalize */
 @import url('../vendor/normalize.css');
 
+/* keyframes rotation*/
+@import url('../blocks/rotation/rotation.css');
+
+/* блок rotation-pic*/
+@import url('../blocks/rotation-pic/rotation-pic.css');
+
 /* блок Page */
 @import url('../blocks/page/page.css');
 
@@ -20,6 +26,18 @@
 /* модификаторы Logo */
 @import url('../blocks/logo/_place/logo_place_header.css');
 @import url('../blocks/logo/_place/logo_place_footer.css');
+
+/* блок techniques*/
+@import url('../blocks/techniques/techniques.css');
+
+/* блок cards */
+@import url('../blocks/cards/cards.css');
+
+/* элементы блока cards */
+@import url('../blocks/cards/__description/cards__description.css');
+@import url('../blocks/cards/__image/cards__image.css');
+@import url('../blocks/cards/__item/cards__item.css');
+@import url('../blocks/cards/__title/cards__title.css');
 
 /* блок description */
 @import url('../blocks/description/description.css');
